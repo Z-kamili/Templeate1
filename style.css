@@ -9,6 +9,7 @@ body
     
     font-family: 'Lato',sans-serif;
 }
+/*MENU*/
 .row
 {
     max-width: 1200px;
@@ -49,7 +50,7 @@ body
 
 
 
-
+/*HEADER*/
 h1
 {
     color: white;
@@ -62,7 +63,7 @@ h1
 header
 {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg1.jpg);
-    height: 100em;
+    height: 40em;
     background-size: cover;
     background-position: center;
 }
@@ -101,16 +102,35 @@ header
     
         
 }
+/*Section */
+section{
+    height: 300px;;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+p{
+   
+    text-align: center;
+    line-height: 30px;
+}
 
 .logo img
 {
     width: 150px;
     height: auto;
 }
+/*Image*/
 footer{
-    background: rgb(255,255,255);
+    background: rgb(235, 232, 232);
     padding:20px 0 40px;
     text-align: center;
+}
+h5{
+    color: black;
 }
 
 
